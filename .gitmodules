@@ -1,0 +1,6 @@
+[submodule "Baduk-Online-Frontend"]
+	path = Baduk-Online-Frontend
+	url = https://github.com/UIUC-Go/Baduk-Online-Frontend.git
+[submodule "Baduk-Online-Backend"]
+	path = Baduk-Online-Backend
+	url = https://github.com/UIUC-Go/Baduk-Online-Backend.git
