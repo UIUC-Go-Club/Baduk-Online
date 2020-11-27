@@ -1,3 +1,3 @@
-SHELL_FOLDER=$(cd "$(dirname "$0")";pwd)
+SHELL_FOLDER=$(pwd)
 npm start --prefix $diSHELL_FOLDER/Baduk-Online-Frontend &
 npm start --prefix $diSHELL_FOLDER/Baduk-Online-Backend &
