@@ -8,12 +8,13 @@ RUN apt update && \
     apt install -y tmux
 RUN git clone --recursive https://github.com/UIUC-Go/Baduk-Online.git \
     && sh Baduk-Online/install.sh \
-    && sh Baduk-Online/config.sh
+    && sh Baduk-Online/config.sh \
+    && echo done
 EXPOSE 7777
 EXPOSE 3000
 
-ENTRYPOINT ["/bin/sh","Baduk-Online/run.sh"]
-
+#ENTRYPOINT ["npm","start", "--prefix", "Baduk-Online/Baduk-Online-Backend"]
+ENTRYPOINT ["sh", "Baduk-Online/run.sh"]
 #FROM node:7-alpine
 #
 #WORKDIR /app
