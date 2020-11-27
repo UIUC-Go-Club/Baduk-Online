@@ -4,6 +4,7 @@ RUN apt update && \
     apt install -y git && \
     apt install -y npm && \
     apt install -y nodejs && \
+    npm install -g npm@latest && \
     apt install -y tmux
 RUN git clone --recursive https://github.com/UIUC-Go/Baduk-Online.git \
     && sh Baduk-Online/install.sh \
