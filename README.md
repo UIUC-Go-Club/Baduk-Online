@@ -7,6 +7,10 @@
 - Windows
 - Linux
 
+## Online to play
+- portal:
+    - http://35.226.255.75:3000/
+
 ## Deployment
 - Method 1
     - clone from both directory, need to pull both submodules
