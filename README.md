@@ -1,7 +1,11 @@
 # Baduk-Online
 ## A morden Go online gaming platform
-- Frontend React
-- Backend Express with MongoDB
+- Frontend 
+    - React
+    - Preact
+- Backend 
+    - Express  
+    - MongoDB
 
 ## Tested Platform
 - Windows
