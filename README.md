@@ -36,7 +36,10 @@
         ```bash
         docker run --publish 3000:3000 baduk
         ```
-
+## Submodule pull the latest release
+```bash
+git-update-submodules.sh </path/to/base/repo> <BRANCH_NAME>
+```
 ## connect to google cloud
 - need to install gcloud first
 ```bash
