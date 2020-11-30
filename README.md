@@ -36,3 +36,9 @@
         ```bash
         docker run --publish 3000:3000 baduk
         ```
+
+## connect to google cloud
+- need to install gcloud first
+```bash
+gcloud beta compute ssh --zone "us-central1-a" "baduk-1" --project "weighty-works-296118"
+```
