@@ -22,9 +22,9 @@
         git clone --recurse-submodules https://github.com/UIUC-Go/Baduk-Online.git
         ```
 - Method 2
-    - build docker
+    - build docker 
         ```bash
-        docker build -t baduk
+        docker build . -t baduk
         ```
     
     - pull from dockerhub
@@ -36,9 +36,12 @@
         ```bash
         docker run --publish 3000:3000 baduk
         ```
+- Docker page
+[https://hub.docker.com/repository/docker/xiaohei99/baduk](https://hub.docker.com/repository/docker/xiaohei99/baduk)
+
 ## Submodule pull the latest release
 ```bash
-git-update-submodules.sh </path/to/base/repo> <BRANCH_NAME>
+sh git-update-submodules.sh </path/to/base/repo> <BRANCH_NAME>
 ```
 ## connect to google cloud
 - need to install gcloud first
